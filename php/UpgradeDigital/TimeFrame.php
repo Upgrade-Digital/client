@@ -1,4 +1,4 @@
-<?php
+lass<?php
 
 namespace UpgradeDigital;
 
@@ -15,7 +15,7 @@ namespace UpgradeDigital;
  */
 class TimeFrame {
 
-  $start;
-  $end;
-
+  private $start;
+  private $end;
+  
 }
