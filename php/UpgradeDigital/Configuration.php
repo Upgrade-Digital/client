@@ -18,12 +18,16 @@ namespace UpgradeDigital;
  */
 class Configuration {
 
-  $_username;
-  $_password;
+  $username;
+  $password;
 
-  function __Config($username, $password) {
-    $this->_username = $username;
-    $this->_password = $password;
+  /**
+   * @param username for the configuration.
+   * @param password for the configuration.
+   */
+  function __construct($username, $password) {
+    $this->username = $username;
+    $this->password = $password;
   }
 
 
