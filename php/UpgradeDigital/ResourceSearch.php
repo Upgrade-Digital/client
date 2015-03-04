@@ -54,7 +54,7 @@ class ResourceSearch {
   /**
    * @var TagSet
    */
-  $resourceTag;
+  $resourceTagSet;
   
   /**
    * @var ResourceTagCount[]
