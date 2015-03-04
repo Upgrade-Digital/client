@@ -16,13 +16,44 @@ namespace UpgradeDigital;
  */
 class ResourceBooking {
 
+  /**
+   * @var string
+   */
   $urn;
+  
+  /**
+   * @var Tag[]
+   */
   $tags;
+  
+  /**
+   * @var integer
+   */
   $adultCapacity;
+  
+  /**
+   * @var integer
+   */
   $childCapacity;
+  
+  /**
+   * @var ResourceRate
+   */
   $rate;
+  
+  /**
+   * @var ProductSelector[]
+   */
   $products;
+  
+  /**
+   * @var integer
+   */
   $adultsPresent;
+  
+  /**
+   * @var integer
+   */
   $childrenPresent;
 
 }

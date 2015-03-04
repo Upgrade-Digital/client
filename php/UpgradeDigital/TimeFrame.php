@@ -15,7 +15,13 @@ namespace UpgradeDigital;
  */
 class TimeFrame {
 
+  /**
+   * @var string
+   */
   private $start;
+  /**
+   * @var string
+   */
   private $end;
   
 }

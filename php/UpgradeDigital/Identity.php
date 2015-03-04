@@ -3,7 +3,8 @@
 namespace UpgradeDigital;
 
 /**
- * A tag used to categorise / label an entity.
+ * The identity representation holds a collection of different identity related
+ * data for a given person.
  * 
  * PHP version 5
  * 
@@ -13,21 +14,25 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class Tag {
+class Identity {
 
   /**
    * @var string
-   */
+   */ 
   $urn;
-  
+
+  /**
+   * @var PersonName
+   */
+  $name;
+
+  /**
+   * @var Address
+   */
+  $billingAddress;
+
   /**
    * @var string
    */
-  $value;
-  
-  /**
-   * @var TagSet
-   */
-  $tagSet;
-
+  $email;
 }

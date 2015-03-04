@@ -16,14 +16,49 @@ namespace UpgradeDigital;
  */
 class ResourceSearch {
 
+  /**
+   * @var string
+   */
   $urn;
+  
+  /**
+   * @var string
+   */
   $url;
+  
+  /**
+   * @var string
+   */
   $status;
+  
+  /**
+   * @var string
+   */
   $created;
+  
+  /**
+   * @var string
+   */
   $updated;
+  
+  /**
+   * @var TimeFrame
+   */
   $period;
+  
+  /**
+   * @var Place[]
+   */
   $places;
+  
+  /**
+   * @var TagSet
+   */
   $resourceTag;
+  
+  /**
+   * @var ResourceTagCount[]
+   */
   $resources;
 
 }

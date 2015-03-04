@@ -4,7 +4,7 @@ namespace UpgradeDigital;
 
 
 /**
- * Upgrade Digital Booking API Endpoint Configuration.
+ * Upgrade Digital Booking API Client Configuration.
  *
  * PHP version 5
  *

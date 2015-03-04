@@ -3,7 +3,7 @@
 namespace UpgradeDigital;
 
 /**
- * A tag used to categorise / label an entity.
+ * An address including the field set out in the schema.org naming conventions
  * 
  * PHP version 5
  * 
@@ -13,21 +13,37 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class Tag {
+class Address {
+
 
   /**
    * @var string
    */
   $urn;
-  
+
   /**
    * @var string
    */
-  $value;
-  
-  /**
-   * @var TagSet
-   */
-  $tagSet;
+  $street;
 
+  /**
+   * @var string
+   */
+  $locality;
+
+  /**
+   * @var string
+   */
+  $region;
+
+  /**
+   * @var string
+   */
+  $postalCode;
+
+  /**
+   * Two letter http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 code
+   * @var string
+   */
+  $countryCode;
 }

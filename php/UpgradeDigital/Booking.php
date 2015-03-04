@@ -17,13 +17,44 @@ namespace UpgradeDigital;
  */
 public class Booking extends JsonSerilizable {
   
+  /**
+   * @var string
+   */
   $urn;
+  
+  /**
+   * @var string
+   */
   $url;
+  
+  /**
+   * @var string
+   */
   $created;
+  
+  /**
+   * @var string
+   */
   $updated;
+  
+  /**
+   * @var string
+   */
   $status;
+  
+  /**
+   * @var Currency
+   */
   $price;
+  
+  /**
+   * @var Stay[]
+   */
   $stays;
+  
+  /**
+   * @var Payment[]
+   */
   $payments;
 
 }

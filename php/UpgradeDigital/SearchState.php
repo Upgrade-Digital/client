@@ -17,9 +17,9 @@ namespace UpgradeDigital;
  */
 public abstract class SearchState extends AbstractEnum {
 
-  const QUEUED = 1;
-  const SEARCHING = 2;
-  const COMPLETE = 3;
-  const FAILED = 4;
+  const QUEUED = "QUEUED";
+  const SEARCHING = "SEARCHING";
+  const COMPLETE = "COMPLETE";
+  const FAILED = "FAILED";
 
 }

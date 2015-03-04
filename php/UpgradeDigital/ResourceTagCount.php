@@ -16,9 +16,24 @@ namespace UpgradeDigital;
  */
 class ResourceTagCount {
 
+  /**
+   * @var Tag
+   */
   $tag;
+  
+  /**
+   * @var integer
+   */
   $count;
+  
+  /**
+   * @var ResourceRate[]
+   */
   $rates;
+  
+  /**
+   * @var ProductSelector[]
+   */
   $products;
 
 }

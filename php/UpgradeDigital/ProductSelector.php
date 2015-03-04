@@ -16,10 +16,29 @@ namespace UpgradeDigital;
  */
 class ProductSelector {
 
+  /**
+   * @var Tag[]
+   */
   $tags;
+  
+  /**
+   * @var integer
+   */
   $available;
+  
+  /**
+   * @var integer
+   */
   $selected;
+  
+  /**
+   * @var Currency
+   */
   $unitRate;
+  
+  /**
+   * @var Currency
+   */
   $price;
 
 }

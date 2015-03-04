@@ -15,10 +15,29 @@ namespace UpgradeDigital;
  */
 class Place {
 
+  /**
+   * @var string
+   */
   $urn;
+  
+  /**
+   * @var string
+   */
   $url;
+  
+  /**
+   * @var Tag[]
+   */
   $tags;
+  
+  /**
+   * @var string
+   */
   $name;
+  
+  /**
+   * @var Organisation
+   */
   $organisation;
 
 }

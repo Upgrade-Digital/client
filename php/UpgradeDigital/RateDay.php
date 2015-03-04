@@ -16,9 +16,24 @@ namespace UpgradeDigital;
  */
 class RateDay {
 
+  /**
+   * @var string
+   */
   $date;
+  
+  /**
+   * @var integer
+   */
   $available;
+  
+  /**
+   * @var Tag[]
+   */
   $tags;
+  
+  /**
+   * @var CalendarRate[]
+   */
   $calendarRates;
 
 }

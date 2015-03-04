@@ -15,8 +15,20 @@ namespace UpgradeDigital;
  */
 class Currency {
   
+  /**
+   * @var string
+   */ 
   $amount;
+  
+  /**
+   * @var string
+   */  
   $tax;
+  
+  /**
+   * @var string currency code using http://en.wikipedia.org/wiki/ISO_4217 three
+   *      digit codes.
+   */
   $currencyCode;
 
 }

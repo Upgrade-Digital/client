@@ -17,18 +17,18 @@ namespace UpgradeDigital;
  */
 abstract class BookingState extends AbstractEnum {
 
-  const BASKET = 1;
-  const HOLD = 2;
-  const HOLD_FAILED = 3;
-  const HELD = 4;
-  const RELEASE = 5;
-  const RELEASE_FAILED = 6;
-  const RELEASED = 7;
-  const CONFIRM = 8;
-  const CONFIRM_FAILED = 9;
-  const CONFIRMED = 10;
-  const CANCEL = 11;
-  const CANCEL_FAILED = 12;
-  const CANCELLED = 13;
+  const BASKET = 'BASKET';
+  const HOLD = 'HOLD';
+  const HOLD_FAILED = 'HOLD_FAILED';
+  const HELD = 'HELD';
+  const RELEASE = 'RELEASE';
+  const RELEASE_FAILED = 'RELEASE_FAILED';
+  const RELEASED = 'RELEASED';
+  const CONFIRM = 'CONFIRM';
+  const CONFIRM_FAILED = 'CONFIRM_FAILED';
+  const CONFIRMED = 'CONFIRMED';
+  const CANCEL = 'CANCEL';
+  const CANCEL_FAILED = 'CANCEL_FAILED';
+  const CANCELLED = 'CANCELLED';
 
 }

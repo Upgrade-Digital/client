@@ -15,7 +15,14 @@ namespace UpgradeDigital;
  */
 class CalendarRate {
 
+  /**
+   * @var Currency
+   */  
   $rate;
+  
+  /**
+   * @var Tags[]
+   */  
   $tags;
 
 }

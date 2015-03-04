@@ -15,9 +15,24 @@ namespace UpgradeDigital;
  */
 class Stay extends JsonSerializable {
 
+  /**
+   * @var string
+   */
   $urn;
+  
+  /**
+   * @var TimeFrame
+   */
   $period;
+  
+  /**
+   * @var Place
+   */
   $place;
+  
+  /**
+   * @var ResourceBooking[]
+   */
   $resources;
 
 }

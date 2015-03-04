@@ -15,10 +15,29 @@ namespace UpgradeDigital;
  */
 class Payment {
 
+  /**
+   * @var string
+   */
   $urn;
+  
+  /**
+   * @var string
+   */
   $created;
+  
+  /**
+   * @var string
+   */
   $source;
+  
+  /**
+   * @var string
+   */  
   $transaction;
+  
+  /**
+   * @var Currency
+   */  
   $amount;
 
 }

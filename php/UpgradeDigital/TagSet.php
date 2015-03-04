@@ -14,8 +14,15 @@ namespace UpgradeDigital;
  * @link https://github.com/Upgrade-Digital/client
  */
 class TagSet {
-  
+ 
+  /**
+   * @var string
+   */
   $urn;
+  
+  /**
+   * @var string
+   */
   $name;
 
 }

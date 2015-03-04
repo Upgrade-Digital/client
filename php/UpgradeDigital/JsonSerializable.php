@@ -16,14 +16,25 @@ namespace UpgradeDigital;
  */
 abstract class JsonSerializable {
 
-  function fromJson($json) {
+  /**
+   * Map a json string to a given class instance.
+   * @param $json string Json data.
+   * @param $classInstance class e.g. an instance of ResourceSearch.
+   *
+   * Usage is like JsonSerializable::fromJson($myData, new ResourceSearch());
+   */
+  static function fromJson($json, $classInstance) {
     $jsonArray = json_decode($json, true);
-    foreach ($jsonArray as $key=>$value) {
-      $this->$key = $value;
-    }
+    $mapper = new JsonMapper();
+    return $mapper->map($jsonArray, $classInstance);    
   } 
 
-  function toJson() {
-    return json_encode($this);
+  /**
+   * Helper to generate Json for a given class. Preferred over json_encode 
+   * direct usage to allow for inclusion of json mapper bindings.
+   * @param $classInstance class instance to map.
+   */
+  static function toJson($classInstance) {
+    return json_encode($classInstance);
   }
 }

@@ -15,9 +15,24 @@ namespace UpgradeDigital;
  */
 class ResourceRate {
 
+  /**
+   * @var Tag[]
+   */
   $tags;
+  
+  /**
+   * @var integer
+   */
   $units;
+  
+  /**
+   * @var Currency
+   */
   $averageUnitRate;
+  
+  /**
+   * @var Currency
+   */
   $price;
 
 }

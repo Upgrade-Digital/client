@@ -3,7 +3,7 @@
 namespace UpgradeDigital;
 
 /**
- * A tag used to categorise / label an entity.
+ * The person name represetation captures the person's name details.
  * 
  * PHP version 5
  * 
@@ -13,21 +13,27 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class Tag {
-
+class PersonName {
+  
   /**
    * @var string
    */
   $urn;
-  
+
   /**
    * @var string
    */
-  $value;
-  
-  /**
-   * @var TagSet
-   */
-  $tagSet;
+  $honorificPrefix;
 
+
+  /**
+   * @var string
+   */
+  $givenName;
+
+
+  /**
+   * @var string
+   */
+  $familyName;
 }

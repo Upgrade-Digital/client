@@ -16,11 +16,34 @@ namespace UpgradeDigital;
  */
 class PlaceCalendar {
 
+  /**
+   * @var string
+   */
   $urn;
+  
+  /**
+   * @var string
+   */
   $created;
+  
+  /**
+   * @var string
+   */
   $updated;
+  
+  /**
+   * @var string
+   */
   $status;
+  
+  /**
+   * @var Place
+   */
   $place;
+  
+  /**
+   * @var RateDay[]
+   */
   $rateDays;
 
 }

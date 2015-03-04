@@ -16,7 +16,14 @@ namespace UpgradeDigital;
  */
 class BestRateCalendar {
   
+  /**
+   * @var TimeFrame
+   */
   $period;
+  
+  /**
+   * @var PlaceCalendar[]
+   */
   $placeCalendars;
 
 }
