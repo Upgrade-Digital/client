@@ -49,7 +49,7 @@ class ResourceSearch {
   /**
    * @var Tag[]
    */
-  $places;
+  $placeTags;
   
   /**
    * @var TagSet
@@ -57,8 +57,8 @@ class ResourceSearch {
   $resourceTagSet;
   
   /**
-   * @var ResourceTagCount[]
+   * @var PlaceResourceCount[]
    */
-  $resources;
+  $places;
 
 }
