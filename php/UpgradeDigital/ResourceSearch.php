@@ -47,7 +47,7 @@ class ResourceSearch {
   $period;
   
   /**
-   * @var Place[]
+   * @var Tag[]
    */
   $places;
   
