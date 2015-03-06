@@ -3,8 +3,8 @@
 namespace UpgradeDigital;
 
 /**
- * Resource booking representation for a resource like a hotel room offered in a
- * place.
+ * Occupancy representation used in search, calendar and booking to indicate
+ * levels of fill of a resource.
  * 
  * PHP version 5
  * 
@@ -14,31 +14,26 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class ResourceBooking {
+ class Occupancy {
+ 
+  /**
+   * @var integer
+   */
+  $adultsPresent;
 
   /**
-   * @var string
+   * @var integer
    */
-  $urn;
+  $childrenPresent;
   
   /**
-   * @var Tag[]
+   * @var integer
    */
-  $tags;
+  $adultCapacity;
   
   /**
-   * @var Occupancy
+   * @var integer
    */
-  $occupancy;
-  
-  /**
-   * @var ResourceRate
-   */
-  $rate;
-  
-  /**
-   * @var ProductSelector[]
-   */
-  $products;
-
-}
+  $childCapacity;
+   
+ }

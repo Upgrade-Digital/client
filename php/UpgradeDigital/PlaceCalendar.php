@@ -37,9 +37,9 @@ class PlaceCalendar {
   $status;
   
   /**
-   * @var Place
+   * @var Tag[]
    */
-  $place;
+  $selectorTags;
   
   /**
    * @var RateDay[]

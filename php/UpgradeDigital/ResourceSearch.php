@@ -49,7 +49,12 @@ class ResourceSearch {
   /**
    * @var Tag[]
    */
-  $placeTags;
+  $selectorTags;
+  
+  /**
+   * @var Occupancy
+   */
+  $occupancy;
   
   /**
    * @var TagSet
