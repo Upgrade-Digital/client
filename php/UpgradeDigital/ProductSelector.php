@@ -37,6 +37,11 @@ class ProductSelector {
   $unitRate;
   
   /**
+   * @var Currency;
+   */
+  $deposit;
+  
+  /**
    * @var Currency
    */
   $price;

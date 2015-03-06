@@ -48,6 +48,11 @@ public class Booking extends JsonSerilizable {
   $price;
   
   /**
+   * @var Currency
+   */
+  $deposit;
+  
+  /**
    * @var Stay[]
    */
   $stays;
