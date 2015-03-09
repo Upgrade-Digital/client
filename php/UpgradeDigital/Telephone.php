@@ -3,8 +3,7 @@
 namespace UpgradeDigital;
 
 /**
- * The identity representation holds a collection of different identity related
- * data for a given person.
+ * Telephone representation including type type, for example 'MOBILE' 
  * 
  * PHP version 5
  * 
@@ -14,30 +13,15 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class Identity {
-
-  /**
-   * @var string
-   */ 
-  $urn;
-
-  /**
-   * @var PersonName
-   */
-  $name;
-
-  /**
-   * @var Address
-   */
-  $billingAddress;
-
+class Telephone {
+ 
   /**
    * @var string
    */
-  $email;
+  $type;
   
   /**
-   * @var Telephone[]
+   * @var string
    */
-  $telephones;
+  $number;
 }
