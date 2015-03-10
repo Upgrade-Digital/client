@@ -29,6 +29,16 @@ class ResourceSearch {
   /**
    * @var string
    */
+  $organisationUrn;
+
+  /**
+   * @var string
+   */
+  $organisationUrl;
+  
+  /**
+   * @var string
+   */
   $status;
   
   /**

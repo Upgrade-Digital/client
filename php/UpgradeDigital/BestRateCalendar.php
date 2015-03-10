@@ -17,8 +17,19 @@ namespace UpgradeDigital;
 class BestRateCalendar {
   
   /**
+   * @var string
+   */
+  $urn;
+  
+  /**
+   * @var string
+   */
+  $url;
+  
+  /**
    * @var Occupancy
    */
+  $occupancy;
   
   /**
    * @var TimeFrame

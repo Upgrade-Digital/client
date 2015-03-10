@@ -16,12 +16,17 @@ namespace UpgradeDigital;
 class PlaceResourceCount {
   
   /**
+   * @var string
+   */
+  $urn;
+  
+  /**
    * @var Place
    */
    $place;
    
   /**
-   * @var ResourceTagCount
+   * @var ResourceTagCount[]
    */
   $resoruces;
   

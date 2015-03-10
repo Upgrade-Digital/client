@@ -61,5 +61,10 @@ public class Booking extends JsonSerilizable {
    * @var Payment[]
    */
   $payments;
+  
+  /**
+   * @var Identity
+   */
+  $booker;
 
 }
