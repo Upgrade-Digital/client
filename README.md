@@ -14,7 +14,7 @@ Resource Search
 ---------------
 
 The resource search is used to carry out a detailed searches of resource (room)
-availability. The entry point is the ResourceSearch.
+availability. The entry point is the PlaceSearch.
 
 
 Booking
