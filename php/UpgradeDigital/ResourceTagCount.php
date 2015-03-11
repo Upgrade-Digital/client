@@ -17,6 +17,11 @@ namespace UpgradeDigital;
 class ResourceTagCount {
 
   /**
+   * @var string
+   */
+  $urn;
+  
+  /**
    * @var Tag
    */
   $tag;
