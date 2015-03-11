@@ -13,7 +13,7 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class PlaceResourceCount {
+class PlaceResourceSearch {
   
   /**
    * @var string
@@ -21,9 +21,9 @@ class PlaceResourceCount {
   $urn;
   
   /**
-   * @var Place
+   * @var Tag[]
    */
-   $place;
+  $tags; 
    
   /**
    * @var ResourceTagCount[]

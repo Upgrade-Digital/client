@@ -14,7 +14,7 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class ResourceSearch {
+class PlaceSearch {
 
   /**
    * @var string
@@ -57,11 +57,6 @@ class ResourceSearch {
   $period;
   
   /**
-   * @var Tag[]
-   */
-  $selectorTags;
-  
-  /**
    * @var Occupancy
    */
   $occupancy;
@@ -72,7 +67,7 @@ class ResourceSearch {
   $resourceTagSet;
   
   /**
-   * @var PlaceResourceCount[]
+   * @var PlaceResourceSearch[]
    */
   $places;
 
