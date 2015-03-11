@@ -3,7 +3,8 @@
 namespace UpgradeDigital;
 
 /**
- * Place resource count contains a collection of resource counts by place.
+ * Occupancy representation used in search, calendar and booking to indicate
+ * levels of fill of a resource.
  * 
  * PHP version 5
  * 
@@ -13,21 +14,26 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class PlaceResourceCount {
+ class Occupancy {
+ 
+  /**
+   * @var integer
+   */
+  $adultsPresent;
+
+  /**
+   * @var integer
+   */
+  $childrenPresent;
   
   /**
-   * @var string
+   * @var integer
    */
-  $urn;
+  $adultCapacity;
   
   /**
-   * @var Place
+   * @var integer
    */
-   $place;
+  $childCapacity;
    
-  /**
-   * @var ResourceTagCount[]
-   */
-  $resoruces;
-  
-}
+ }

@@ -35,4 +35,9 @@ class Identity {
    * @var string
    */
   $email;
+  
+  /**
+   * @var Telephone[]
+   */
+  $telephones;
 }

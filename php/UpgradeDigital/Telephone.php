@@ -3,7 +3,7 @@
 namespace UpgradeDigital;
 
 /**
- * Place resource count contains a collection of resource counts by place.
+ * Telephone representation including type type, for example 'MOBILE' 
  * 
  * PHP version 5
  * 
@@ -13,21 +13,15 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class PlaceResourceCount {
+class Telephone {
+ 
+  /**
+   * @var string
+   */
+  $type;
   
   /**
    * @var string
    */
-  $urn;
-  
-  /**
-   * @var Place
-   */
-   $place;
-   
-  /**
-   * @var ResourceTagCount[]
-   */
-  $resoruces;
-  
+  $number;
 }

@@ -27,14 +27,9 @@ class ResourceBooking {
   $tags;
   
   /**
-   * @var integer
+   * @var Occupancy
    */
-  $adultCapacity;
-  
-  /**
-   * @var integer
-   */
-  $childCapacity;
+  $occupancy;
   
   /**
    * @var ResourceRate
@@ -45,15 +40,5 @@ class ResourceBooking {
    * @var ProductSelector[]
    */
   $products;
-  
-  /**
-   * @var integer
-   */
-  $adultsPresent;
-  
-  /**
-   * @var integer
-   */
-  $childrenPresent;
 
 }

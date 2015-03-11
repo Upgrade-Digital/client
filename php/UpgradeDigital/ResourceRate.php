@@ -33,6 +33,11 @@ class ResourceRate {
   /**
    * @var Currency
    */
+  $deposit;
+  
+  /**
+   * @var Currency
+   */
   $price;
 
 }

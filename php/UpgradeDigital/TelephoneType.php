@@ -3,7 +3,7 @@
 namespace UpgradeDigital;
 
 /**
- * Place resource count contains a collection of resource counts by place.
+ * Telephone number type enumeration.
  * 
  * PHP version 5
  * 
@@ -13,21 +13,8 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class PlaceResourceCount {
-  
-  /**
-   * @var string
-   */
-  $urn;
-  
-  /**
-   * @var Place
-   */
-   $place;
-   
-  /**
-   * @var ResourceTagCount[]
-   */
-  $resoruces;
+abstract class TelephoneType extends AbstractEnum {
+ 
+  const MOBILE = 'MOBILE';  
   
 }

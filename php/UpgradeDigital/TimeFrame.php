@@ -19,9 +19,17 @@ class TimeFrame {
    * @var string
    */
   private $start;
+  
   /**
    * @var string
    */
   private $end;
   
+  public function getStart() {
+    return new DateTime($start);
+  }
+  
+  public function getEnd() {
+    return new DateTime($end);
+  }
 }
