@@ -40,5 +40,9 @@ class ProductSelector {
    * @var Currency
    */
   $price;
-
+  
+  /**
+   * @var Currency
+   */
+  $deposit;
 }
