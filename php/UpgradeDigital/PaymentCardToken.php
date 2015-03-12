@@ -3,7 +3,7 @@
 namespace UpgradeDigital;
 
 /**
- * Payment representation with multiple payments per reservation potentially.
+ * Payment card token representation.
  * 
  * PHP version 5
  * 
@@ -13,36 +13,32 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class Payment {
-
+class PaymentCardToken {
+ 
+  /**
+   * @var string 
+   */
+  $identifier;
+  
+  /**
+   * The last digits of the card, typically the last 4.
+   *
+   * @var string
+   */
+  $lastDigits;
+  
   /**
    * @var string
    */
-  $urn;
+  $brand;
   
   /**
-   * @var string
+   * @var integer
    */
-  $created;
+  $expiryMonth;
   
   /**
-   * @var string
+   * @var integer
    */
-  $source;
-  
-  /**
-   * @var string
-   */  
-  $transaction;
-  
-  /**
-   * @var Currency
-   */  
-  $amount;
-  
-  /**
-   * @var PaymentCardToken
-   */
-  $cardToken;
-
+  $expiryYear;
 }
