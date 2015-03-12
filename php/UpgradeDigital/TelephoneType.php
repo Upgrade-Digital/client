@@ -15,6 +15,7 @@ namespace UpgradeDigital;
  */
 abstract class TelephoneType extends AbstractEnum {
  
-  const MOBILE = 'MOBILE';  
-  
+  const MOBILE = 'MOBILE'; 
+  const HOME = 'HOME';
+  const WORK = 'WORK';  
 }
