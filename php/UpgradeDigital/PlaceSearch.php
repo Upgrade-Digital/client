@@ -30,11 +30,6 @@ class PlaceSearch {
    * @var Organisation;
    */
   $organisation;
-
-  /**
-   * @var string
-   */
-  $organisationUrl;
   
   /**
    * @var string
