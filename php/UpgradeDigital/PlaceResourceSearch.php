@@ -30,4 +30,9 @@ class PlaceResourceSearch {
    */
   $resoruces;
   
+  /**
+   * @var string
+   */
+  $status;
+  
 }

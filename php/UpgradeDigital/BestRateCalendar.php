@@ -50,5 +50,10 @@ class BestRateCalendar {
    * @var PlaceCalendar[]
    */
   $placeCalendars;
+  
+  /**
+   * @var string
+   */
+  $status;
 
 }
