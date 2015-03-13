@@ -27,6 +27,16 @@ class BestRateCalendar {
   $url;
   
   /**
+   * @var Organisation
+   */
+  $organisation;
+  
+  /**
+   * @var Timestamp
+   */
+  $timestamp;
+  
+  /**
    * @var Occupancy
    */
   $occupancy;

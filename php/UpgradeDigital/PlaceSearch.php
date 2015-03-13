@@ -27,9 +27,9 @@ class PlaceSearch {
   $url;
   
   /**
-   * @var string
+   * @var Organisation;
    */
-  $organisationUrn;
+  $organisation;
 
   /**
    * @var string
@@ -42,14 +42,9 @@ class PlaceSearch {
   $status;
   
   /**
-   * @var string
+   * @var Timestamp
    */
-  $created;
-  
-  /**
-   * @var string
-   */
-  $updated;
+  $timestamp;
   
   /**
    * @var TimeFrame

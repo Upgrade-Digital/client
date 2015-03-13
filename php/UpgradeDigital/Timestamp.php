@@ -3,9 +3,9 @@
 namespace UpgradeDigital;
 
 /**
- * Rate day represents a specific date and contains a collection of rates 
- * available for the date.
- *
+ * Timestamp functions used through the client libraries for tagging the time
+ * details of a representation.
+ * 
  * PHP version 5
  * 
  * @package Client
@@ -14,26 +14,17 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class RateDay {
+
+class Timestamp {
+
+  /**
+   * @var string
+   */
+  $created;
   
   /**
    * @var string
    */
-  $urn;
-  
-  /**
-   * @var Currency
-   */
-  $rate;
-  
-  /**
-   * @var Tag[]
-   */
-  $tags;
-  
-  /**
-   * @var RateDayRestriction[]
-   */
-  $restrictions;
-  
+  $updated;
+
 }

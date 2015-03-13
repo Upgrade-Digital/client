@@ -3,9 +3,9 @@
 namespace UpgradeDigital;
 
 /**
- * Rate day represents a specific date and contains a collection of rates 
- * available for the date.
- *
+ * The resource day representation captures a single resource day availability
+ * which is used in a calendar context.
+ * 
  * PHP version 5
  * 
  * @package Client
@@ -14,7 +14,7 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class RateDay {
+class ResourceDay {
   
   /**
    * @var string
@@ -22,18 +22,18 @@ class RateDay {
   $urn;
   
   /**
-   * @var Currency
-   */
-  $rate;
-  
-  /**
    * @var Tag[]
    */
   $tags;
   
   /**
-   * @var RateDayRestriction[]
+   * @var integer
    */
-  $restrictions;
+  $available;
+  
+  /**
+   * @var RateDay[]
+   */
+  $rates;
   
 }

@@ -22,14 +22,10 @@ class PlaceCalendar {
   $urn;
   
   /**
-   * @var string
+   * @var Timestamp
    */
-  $created;
-  
-  /**
-   * @var string
-   */
-  $updated;
+  $timestamp;
+
   
   /**
    * @var string
@@ -39,11 +35,11 @@ class PlaceCalendar {
   /**
    * @var Tag[]
    */
-  $selectorTags;
+  $tags;
   
   /**
-   * @var RateDay[]
+   * @var CalendarDay[]
    */
-  $rateDays;
+  $days;
 
 }
