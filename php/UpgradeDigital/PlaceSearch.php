@@ -52,11 +52,6 @@ class PlaceSearch {
   $occupancy;
   
   /**
-   * @var TagSet
-   */
-  $resourceTagSet;
-  
-  /**
    * @var PlaceResourceSearch[]
    */
   $places;
