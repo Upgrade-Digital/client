@@ -28,14 +28,9 @@ public class Booking extends JsonSerilizable {
   $url;
   
   /**
-   * @var string
+   * @var Timestamp
    */
-  $created;
-  
-  /**
-   * @var string
-   */
-  $updated;
+  $timestamp;
   
   /**
    * @var string

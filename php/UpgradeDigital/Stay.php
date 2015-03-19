@@ -31,7 +31,7 @@ class Stay extends JsonSerializable {
   $place;
   
   /**
-   * @var ResourceBooking[]
+   * @var BookingResource[]
    */
   $resources;
 
