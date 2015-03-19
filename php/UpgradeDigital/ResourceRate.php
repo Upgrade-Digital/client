@@ -16,6 +16,11 @@ namespace UpgradeDigital;
 class ResourceRate {
 
   /**
+   * @var string
+   */
+  $urn;
+  
+  /**
    * @var Tag[]
    */
   $tags;

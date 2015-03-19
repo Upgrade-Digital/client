@@ -15,6 +15,11 @@ namespace UpgradeDigital;
  * @link https://github.com/Upgrade-Digital/client
  */
 class ProductSelector {
+  
+  /**
+   * @var string
+   */
+  $urn;
 
   /**
    * @var Tag[]
