@@ -3,7 +3,7 @@
 namespace UpgradeDigital;
 
 /**
- * Payment card token representation.
+ * Payment card representation.
  * 
  * PHP version 5
  * 
@@ -13,24 +13,30 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class PaymentCardToken {
+class PaymentCard {
  
   /**
    * @var string 
    */
-  $identifier;
+  $urn;
   
   /**
-   * The last digits of the card, typically the last 4.
+   * The name on the card.
+   * @var string
+   */
+  $nameOnCard;
+  
+  /**
+   * The long 16 digit card number
    *
    * @var string
    */
-  $lastDigits;
+  $cardNumber;
   
   /**
    * @var string
    */
-  $brand;
+  $cardType;
   
   /**
    * @var integer

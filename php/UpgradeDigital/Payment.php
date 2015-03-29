@@ -21,14 +21,9 @@ class Payment {
   $urn;
   
   /**
-   * @var string
+   * @var Timestamp
    */
-  $created;
-  
-  /**
-   * @var string
-   */
-  $source;
+  $timestamp;
   
   /**
    * @var string
@@ -39,10 +34,4 @@ class Payment {
    * @var Currency
    */  
   $amount;
-  
-  /**
-   * @var PaymentCardToken
-   */
-  $cardToken;
-
 }
