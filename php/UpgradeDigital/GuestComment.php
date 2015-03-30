@@ -18,10 +18,10 @@ class GuestComment {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
  
   /**
    * @var string
    */
-  $message;
+  public $message;
 }

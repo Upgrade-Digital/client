@@ -19,16 +19,16 @@ class CalendarDay {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * ISO date YYYYMMDD
    * @var string
    */
-  $date;
+  public $date;
   
   /**
    * @var ResourceDay[]
    */
-  $resources;
+  public $resources;
 }

@@ -18,8 +18,8 @@ namespace UpgradeDigital;
  */
 class Configuration {
 
-  $username;
-  $password;
+  public $username;
+  public $password;
 
   /**
    * @param username for the configuration.

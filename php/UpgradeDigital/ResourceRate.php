@@ -18,31 +18,31 @@ class ResourceRate {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var Tag[]
    */
-  $tags;
+  public $tags;
   
   /**
    * @var integer
    */
-  $units;
+  public $units;
   
   /**
    * @var Currency
    */
-  $averageUnitRate;
+  public $averageUnitRate;
   
   /**
    * @var Currency
    */
-  $deposit;
+  public $deposit;
   
   /**
    * @var Currency
    */
-  $price;
+  public $price;
 
 }

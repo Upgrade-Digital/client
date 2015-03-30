@@ -19,25 +19,25 @@ class Identity {
   /**
    * @var string
    */ 
-  $urn;
+  public $urn;
 
   /**
    * @var PersonName
    */
-  $name;
+  public $name;
 
   /**
    * @var Address
    */
-  $billingAddress;
+  public $billingAddress;
 
   /**
    * @var string
    */
-  $email;
+  public $email;
   
   /**
    * @var Telephone[]
    */
-  $telephones;
+  public $telephones;
 }

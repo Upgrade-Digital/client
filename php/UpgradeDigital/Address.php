@@ -19,31 +19,31 @@ class Address {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
 
   /**
    * @var string
    */
-  $street;
+  public $street;
 
   /**
    * @var string
    */
-  $locality;
+  public $locality;
 
   /**
    * @var string
    */
-  $region;
+  public $region;
 
   /**
    * @var string
    */
-  $postalCode;
+  public $postalCode;
 
   /**
    * Two letter http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 code
    * @var string
    */
-  $countryCode;
+  public $countryCode;
 }

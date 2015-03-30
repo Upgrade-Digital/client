@@ -18,21 +18,21 @@ class PlaceResourceSearch {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var Tag[]
    */
-  $tags; 
+  public $tags; 
    
   /**
    * @var ResourceTagCount[]
    */
-  $resoruces;
+  public $resoruces;
   
   /**
    * @var string
    */
-  $status;
+  public $status;
   
 }

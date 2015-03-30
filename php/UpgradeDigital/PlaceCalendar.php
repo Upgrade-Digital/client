@@ -19,27 +19,27 @@ class PlaceCalendar {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var Timestamp
    */
-  $timestamp;
+  public $timestamp;
 
   
   /**
    * @var string
    */
-  $status;
+  public $status;
   
   /**
    * @var Tag[]
    */
-  $tags;
+  public $tags;
   
   /**
    * @var CalendarDay[]
    */
-  $days;
+  public $days;
 
 }

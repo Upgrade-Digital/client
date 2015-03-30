@@ -18,33 +18,33 @@ class PaymentCard {
   /**
    * @var string 
    */
-  $urn;
+  public $urn;
   
   /**
    * The name on the card.
    * @var string
    */
-  $nameOnCard;
+  public $nameOnCard;
   
   /**
    * The long 16 digit card number
    *
    * @var string
    */
-  $cardNumber;
+  public $cardNumber;
   
   /**
    * @var string
    */
-  $cardType;
+  public $cardType;
   
   /**
    * @var integer
    */
-  $expiryMonth;
+  public $expiryMonth;
   
   /**
    * @var integer
    */
-  $expiryYear;
+  public $expiryYear;
 }

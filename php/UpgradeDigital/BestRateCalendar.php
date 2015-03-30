@@ -19,41 +19,41 @@ class BestRateCalendar {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var string
    */
-  $url;
+  public $url;
   
   /**
    * @var Organisation
    */
-  $organisation;
+  public $organisation;
   
   /**
    * @var Timestamp
    */
-  $timestamp;
+  public $timestamp;
   
   /**
    * @var Occupancy
    */
-  $occupancy;
+  public $occupancy;
   
   /**
    * @var TimeFrame
    */
-  $period;
+  public $period;
   
   /**
    * @var PlaceCalendar[]
    */
-  $placeCalendars;
+  public $placeCalendars;
   
   /**
    * @var string
    */
-  $status;
+  public $status;
 
 }

@@ -19,21 +19,21 @@ class RateDay {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var Currency
    */
-  $rate;
+  public $rate;
   
   /**
    * @var Tag[]
    */
-  $tags;
+  public $tags;
   
   /**
    * @var RateDayRestriction[]
    */
-  $restrictions;
+  public $restrictions;
   
 }

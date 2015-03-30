@@ -18,16 +18,16 @@ class Tag {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var string
    */
-  $value;
+  public $value;
   
   /**
    * @var TagSet
    */
-  $tagSet;
+  public $tagSet;
 
 }

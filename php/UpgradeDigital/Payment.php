@@ -18,20 +18,20 @@ class Payment {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var Timestamp
    */
-  $timestamp;
+  public $timestamp;
   
   /**
    * @var string
    */  
-  $transaction;
+  public $transaction;
   
   /**
    * @var Currency
    */  
-  $amount;
+  public $amount;
 }

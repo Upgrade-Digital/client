@@ -20,11 +20,11 @@ class Timestamp {
   /**
    * @var string
    */
-  $created;
+  public $created;
   
   /**
    * @var string
    */
-  $updated;
+  public $updated;
 
 }

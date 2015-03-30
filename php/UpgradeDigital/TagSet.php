@@ -18,11 +18,11 @@ class TagSet {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var string
    */
-  $name;
+  public $name;
 
 }

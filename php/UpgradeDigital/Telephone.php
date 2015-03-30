@@ -18,10 +18,10 @@ class Telephone {
   /**
    * @var string
    */
-  $type;
+  public $type;
   
   /**
    * @var string
    */
-  $number;
+  public $number;
 }

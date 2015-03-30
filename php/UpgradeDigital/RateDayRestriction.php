@@ -44,15 +44,15 @@ class RateDayRestriction {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var string
    */
-  $name;
+  public $name;
   
   /**
    * @var string
    */
-  $value;
+  public $value;
 }

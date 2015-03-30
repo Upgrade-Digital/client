@@ -19,31 +19,31 @@ class BookingResource {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var Tag[]
    */
-  $tags;
+  public $tags;
   
   /**
    * @var Occupancy
    */
-  $occupancy;
+  public $occupancy;
   
   /**
    * @var ResourceRate
    */
-  $rate;
+  public $rate;
   
   /**
    * @var ProductSelector[]
    */
-  $products;
+  public $products;
   
   /**
    * @var GuestComment
    */
-   $guestComment;
+  public $guestComment;
 
 }

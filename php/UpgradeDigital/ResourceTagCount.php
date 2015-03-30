@@ -19,26 +19,26 @@ class ResourceTagCount {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var Tag
    */
-  $tag;
+  public $tag;
   
   /**
    * @var integer
    */
-  $count;
+  public $count;
   
   /**
    * @var ResourceRate[]
    */
-  $rates;
+  public $rates;
   
   /**
    * @var ProductSelector[]
    */
-  $products;
+  public $products;
 
 }

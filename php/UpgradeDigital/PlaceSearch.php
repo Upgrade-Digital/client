@@ -19,41 +19,41 @@ class PlaceSearch {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var string
    */
-  $url;
+  public $url;
   
   /**
    * @var Organisation;
    */
-  $organisation;
+  public $organisation;
   
   /**
    * @var string
    */
-  $status;
+  public $status;
   
   /**
    * @var Timestamp
    */
-  $timestamp;
+  public $timestamp;
   
   /**
    * @var TimeFrame
    */
-  $period;
+  public $period;
   
   /**
    * @var Occupancy
    */
-  $occupancy;
+  public $occupancy;
   
   /**
    * @var PlaceResourceSearch[]
    */
-  $places;
+  public $places;
 
 }

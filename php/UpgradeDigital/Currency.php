@@ -18,17 +18,17 @@ class Currency {
   /**
    * @var string
    */ 
-  $amount;
+  public $amount;
   
   /**
    * @var string
    */  
-  $tax;
+  public $tax;
   
   /**
    * @var string currency code using http://en.wikipedia.org/wiki/ISO_4217 three
    *      digit codes.
    */
-  $currencyCode;
+  public $currencyCode;
 
 }

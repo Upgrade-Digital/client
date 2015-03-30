@@ -18,21 +18,21 @@ class Stay extends JsonSerializable {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var TimeFrame
    */
-  $period;
+  public $period;
   
   /**
    * @var Place
    */
-  $place;
+  public $place;
   
   /**
    * @var BookingResource[]
    */
-  $resources;
+  public $resources;
 
 }

@@ -20,51 +20,51 @@ public class Booking extends JsonSerilizable {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var string
    */
-  $url;
+  public $url;
   
   /**
    * @var Timestamp
    */
-  $timestamp;
+  public $timestamp;
   
   /**
    * @var string
    */
-  $status;
+  public $status;
   
   /**
    * @var Currency
    */
-  $price;
+  public $price;
   
   /**
    * @var Currency
    */
-  $deposit;
+  public $deposit;
   
   /**
    * @var Stay[]
    */
-  $stays;
+  public $stays;
   
   /**
    * @var Payment[]
    */
-  $payments;
+  public $payments;
   
   /**
    * @var PaymentCard
    */
-  $paymentCard;
+  public $paymentCard;
   
   /**
    * @var Identity
    */
-  $booker;
+  public $booker;
 
 }

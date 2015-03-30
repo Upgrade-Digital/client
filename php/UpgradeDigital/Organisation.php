@@ -18,11 +18,11 @@ class Organisation {
   /**
    * @var string
    */  
-  $urn;
+  public $urn;
   
   /**
    * @var string
    */
-  $url;
+  public $url;
 
 }

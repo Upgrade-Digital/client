@@ -18,11 +18,11 @@ class CalendarRate {
   /**
    * @var Currency
    */  
-  $rate;
+  public $rate;
   
   /**
    * @var Tags[]
    */  
-  $tags;
+  public $tags;
 
 }

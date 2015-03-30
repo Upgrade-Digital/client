@@ -19,21 +19,21 @@ class ResourceDay {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var Tag[]
    */
-  $tags;
+  public $tags;
   
   /**
    * @var integer
    */
-  $available;
+  public $available;
   
   /**
    * @var RateDay[]
    */
-  $rates;
+  public $rates;
   
 }

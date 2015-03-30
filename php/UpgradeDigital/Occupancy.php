@@ -19,21 +19,21 @@ namespace UpgradeDigital;
   /**
    * @var integer
    */
-  $adultsPresent;
+  public $adultsPresent;
 
   /**
    * @var integer
    */
-  $childrenPresent;
+  public $childrenPresent;
   
   /**
    * @var integer
    */
-  $adultCapacity;
+  public $adultCapacity;
   
   /**
    * @var integer
    */
-  $childCapacity;
+  public $childCapacity;
    
  }

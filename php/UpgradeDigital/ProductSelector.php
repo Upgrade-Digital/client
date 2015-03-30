@@ -19,35 +19,35 @@ class ProductSelector {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
 
   /**
    * @var Tag[]
    */
-  $tags;
+  public $tags;
   
   /**
    * @var integer
    */
-  $available;
+  public $available;
   
   /**
    * @var integer
    */
-  $selected;
+  public $selected;
   
   /**
    * @var Currency
    */
-  $unitRate;
+  public $unitRate;
   
   /**
    * @var Currency;
    */
-  $deposit;
+  public $deposit;
   
   /**
    * @var Currency
    */
-  $price;
+  public $price;
 }

@@ -18,12 +18,12 @@ class TimeFrame {
   /**
    * @var string
    */
-  private $start;
+  public $start;
   
   /**
    * @var string
    */
-  private $end;
+  public $end;
   
   public function getStart() {
     return new DateTime($start);

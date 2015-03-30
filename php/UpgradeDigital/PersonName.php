@@ -18,22 +18,22 @@ class PersonName {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
 
   /**
    * @var string
    */
-  $honorificPrefix;
-
-
-  /**
-   * @var string
-   */
-  $givenName;
+  public $honorificPrefix;
 
 
   /**
    * @var string
    */
-  $familyName;
+  public $givenName;
+
+
+  /**
+   * @var string
+   */
+  public $familyName;
 }

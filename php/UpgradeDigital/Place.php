@@ -18,26 +18,26 @@ class Place {
   /**
    * @var string
    */
-  $urn;
+  public $urn;
   
   /**
    * @var string
    */
-  $url;
+  public $url;
   
   /**
    * @var Tag[]
    */
-  $tags;
+  public $tags;
   
   /**
    * @var string
    */
-  $name;
+  public $name;
   
   /**
    * @var Organisation
    */
-  $organisation;
+  public $organisation;
 
 }
