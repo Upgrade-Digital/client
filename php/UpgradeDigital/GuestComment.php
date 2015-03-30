@@ -3,8 +3,7 @@
 namespace UpgradeDigital;
 
 /**
- * Resource booking representation for a resource like a hotel room offered in a
- * place.
+ * Payment representation with multiple payments per reservation potentially.
  * 
  * PHP version 5
  * 
@@ -14,36 +13,15 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-class BookingResource {
-
+class GuestComment {
+  
   /**
    * @var string
    */
   $urn;
-  
+ 
   /**
-   * @var Tag[]
+   * @var string
    */
-  $tags;
-  
-  /**
-   * @var Occupancy
-   */
-  $occupancy;
-  
-  /**
-   * @var ResourceRate
-   */
-  $rate;
-  
-  /**
-   * @var ProductSelector[]
-   */
-  $products;
-  
-  /**
-   * @var GuestComment
-   */
-   $guestComment;
-
+  $message;
 }
