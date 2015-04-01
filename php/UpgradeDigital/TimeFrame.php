@@ -1,4 +1,4 @@
-lass<?php
+<?php
 
 namespace UpgradeDigital;
 

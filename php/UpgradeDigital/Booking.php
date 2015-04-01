@@ -15,7 +15,7 @@ namespace UpgradeDigital;
  * @license https://github.com/Upgrade-Digital/client/blob/master/LICENSE.md
  * @link https://github.com/Upgrade-Digital/client
  */
-public class Booking extends JsonSerilizable {
+public class Booking {
   
   /**
    * @var string
@@ -46,6 +46,11 @@ public class Booking extends JsonSerilizable {
    * @var Currency
    */
   public $deposit;
+
+  /**
+   * @var boolean
+   */
+  public $depositRequired;
   
   /**
    * @var Stay[]
@@ -66,5 +71,4 @@ public class Booking extends JsonSerilizable {
    * @var Identity
    */
   public $booker;
-
 }

@@ -36,10 +36,20 @@ class ResourceRate {
   public $averageUnitRate;
   
   /**
+   * @var boolean
+   */
+  public $rateChange;
+
+  /**
    * @var Currency
    */
   public $deposit;
   
+  /**
+   * @var boolean
+   */
+  public $depositRequired;
+
   /**
    * @var Currency
    */

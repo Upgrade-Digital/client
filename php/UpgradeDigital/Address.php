@@ -22,6 +22,11 @@ class Address {
   public $urn;
 
   /**
+   * @var string for example BILLING
+   */
+  public $type;
+
+  /**
    * @var string
    */
   public $street;

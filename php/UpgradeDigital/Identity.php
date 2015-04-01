@@ -27,14 +27,14 @@ class Identity {
   public $name;
 
   /**
-   * @var Address
+   * @var Address[]
    */
-  public $billingAddress;
+  public $addresses;
 
   /**
-   * @var string
+   * @var string[]
    */
-  public $email;
+  public $emails;
   
   /**
    * @var Telephone[]

@@ -21,7 +21,7 @@ class BookingResource {
    */
   public $urn;
   
-  /**
+  /**  
    * @var Tag[]
    */
   public $tags;
