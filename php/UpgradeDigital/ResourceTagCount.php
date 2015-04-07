@@ -22,9 +22,15 @@ class ResourceTagCount {
   public $urn;
   
   /**
+   * The tag used to group the results, typcically resourceCode
    * @var Tag
    */
   public $tag;
+  
+  /**
+   * Tag list used to pass information on the resource tag grouping.
+   * @var Tag[]
+   */
   
   /**
    * @var integer
