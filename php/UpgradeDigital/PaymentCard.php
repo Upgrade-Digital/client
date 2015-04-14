@@ -47,4 +47,9 @@ class PaymentCard {
    * @var integer
    */
   public $expiryYear;
+  
+  /**
+   * @var integer
+   */
+  $issueNumber;
 }
