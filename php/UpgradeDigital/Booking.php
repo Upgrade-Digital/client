@@ -71,4 +71,9 @@ public class Booking {
    * @var Identity
    */
   public $booker;
+  
+  /**
+   * @var Message[]
+   */
+  public $messages;
 }
