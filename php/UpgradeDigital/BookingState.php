@@ -30,5 +30,7 @@ abstract class BookingState extends AbstractEnum {
   const CANCEL = 'CANCEL';
   const CANCEL_FAILED = 'CANCEL_FAILED';
   const CANCELLED = 'CANCELLED';
+  const CALCULATING = 'CALCULATING';
+  const CALCULATE_FAILED = 'CALCULATE_FAILED';
 
 }

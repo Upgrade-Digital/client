@@ -37,11 +37,6 @@ class BookingResource {
   public $rate;
   
   /**
-   * @var ProductSelector[]
-   */
-  public $products;
-  
-  /**
    * @var GuestComment
    */
   public $guestComment;

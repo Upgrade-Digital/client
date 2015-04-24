@@ -54,5 +54,11 @@ class ResourceRate {
    * @var Currency
    */
   public $price;
+  
+  
+  /**
+   * @var ProductSelector[]
+   */
+  public $products;
 
 }
