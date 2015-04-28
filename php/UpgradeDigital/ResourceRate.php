@@ -60,5 +60,10 @@ class ResourceRate {
    * @var ProductSelector[]
    */
   public $products;
+  
+  /**
+   * @var BookingReference[]
+   */
+  public $bookingReferences;
 
 }
