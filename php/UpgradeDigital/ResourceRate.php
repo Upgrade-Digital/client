@@ -65,5 +65,10 @@ class ResourceRate {
    * @var BookingReference[]
    */
   public $bookingReferences;
+      
+  /**
+   * @var Payment[]
+   */
+  public $payments;
 
 }

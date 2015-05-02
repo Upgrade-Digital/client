@@ -56,11 +56,6 @@ public class Booking {
   public $stays;
   
   /**
-   * @var Payment[]
-   */
-  public $payments;
-  
-  /**
    * @var PaymentCard
    */
   public $paymentCard;
