@@ -27,22 +27,27 @@ class Address {
   public $type;
 
   /**
-   * @var string
+   * @var string street part 10 Brands Hatch
    */
   public $street;
+  
+  /**
+   * @var string area within the town or city
+   */
+  public $area;
 
   /**
-   * @var string
+   * @var string city or district
    */
   public $locality;
 
   /**
-   * @var string
+   * @var string province or state
    */
   public $region;
 
   /**
-   * @var string
+   * @var string post code if known
    */
   public $postalCode;
 
