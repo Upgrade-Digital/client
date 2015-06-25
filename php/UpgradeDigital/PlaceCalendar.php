@@ -41,5 +41,10 @@ class PlaceCalendar {
    * @var CalendarDay[]
    */
   public $days;
+  
+  /**
+   * @var Occupancy
+   */
+  public $occupancy;
 
 }

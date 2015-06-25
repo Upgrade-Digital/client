@@ -35,5 +35,10 @@ namespace UpgradeDigital;
    * @var integer
    */
   public $childCapacity;
+  
+  /**
+   * @var integer[]
+   */
+  public $childAges;
    
  }

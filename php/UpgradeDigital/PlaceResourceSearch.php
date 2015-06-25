@@ -35,4 +35,9 @@ class PlaceResourceSearch {
    */
   public $status;
   
+  /**
+   * @var Occupancy
+   */
+  public $occupancy;
+  
 }
